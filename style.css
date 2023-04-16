@@ -1,0 +1,193 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(68, 13, 13);
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 2px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40px;
+}
+
+.header {
+    font-size: 40px;
+    font-weight: 500;
+    border-bottom: 2px black dashed;
+}
+
+.header__img {
+    width: 100px;
+}
+
+.choice {
+    font-size: 32px;
+}
+
+.choice,
+.header {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: blanchedalmond;
+}
+
+.car {
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+}
+
+.M {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.car__picture {
+    display: flex;
+    justify-content: space-around;
+}
+
+.carimg {
+    width: 100px;
+}
+
+.car__button,
+.car__fuel,
+.car__price {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.car__fuelTextPrice,
+.car__priceTextPrice {
+    padding-left: 20px;
+}
+
+.car__button {
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+
+.car__buttonChoiceBMW,
+.car__buttonChoiceMER,
+.car__buttonChoiceVW {
+    width: 100%;
+    font-size: 20px;
+}
+
+.question {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 10%;
+    margin-left: -430px;
+    width: 800px;
+    height: auto;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    font-size: 32px;
+    border: 2px solid black;
+}
+
+.question2{
+    display: none;
+}
+
+.question__question {
+    padding-top: 40px;
+}
+
+.question__question4{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.question__question3,
+.question__question2 {
+    padding-top: 20px;
+}
+
+
+.question__questionInput,
+.question__questionInput2 {
+    font-size: 32px;
+    width: 110px;
+    float: right;
+    background-color: bisque;
+}
+
+.question__headerImgBMW {
+    width: 75px;
+    height: 75px;
+    background-image: url(img/bmw_logo.png);
+    background-size: contain;
+}
+
+.question__headerImgMER {
+    width: 110px;
+    height: 90px;
+    background-image: url(img/mersedes__logo.png);
+    background-size: cover;
+}
+
+.question__headerImgVW {
+    width: 75px;
+    height: 75px;
+    background-image: url(img/vw_logo.png);
+    background-size: contain;
+}
+
+.question__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.question__questionStart {
+    float: right;
+    width: 80px;
+    height: 50px;
+    background-size: contain;
+    background-image: url(img/key.png);
+    background-color: beige;
+    border: 0px;
+}
+
+.question__questionStop{
+    float: right;
+    width: 40px;
+    height: 40px;
+    background-image: url(img/reset.png);
+    background-size: contain;
+    background-color: beige;
+    border: 0px;
+}
+
+.result{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 10%;
+    margin-left: -430px;
+    width: 800px;
+    height: auto;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    font-size: 32px;
+    border: 2px solid black;
+}
+
